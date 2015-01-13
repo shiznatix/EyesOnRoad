@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Eyes on Road</string>
+    <string name="app_name_small">Eyes on Small</string>
+    
+    <string name="connectionStatusImage">Connection Status Image</string>
+    <string name="wifiStatusImage">WiFi Status Image</string>
+    <string name="mobileDataStatusImage">Mobile Data Status Image</string>
+    <string name="audioStatusImage">Audio Status Image</string>
+    
+    <string name="bluetoothDevice">Bluetooth Device</string>
+    <string name="preferences">Preferences</string>
+    
+    <string name="master_enabled">Eyes on Road Enabled</string>
+    <string name="master_disabled">Eyes on Road Disabled</string>
+    
+    <string name="select_car_bluetooth">Select your car\'s Bluetooth ID from the list below.</string>
+    
+    <string name="select_managed_settings">Set how your settings will be managed when your phone connects to your car.</string>
+    
+    <string name="will_disable_wifi">WiFi will be disabled</string>
+    <string name="wifi_not_managed">WiFi is NOT managed</string>
+    <string name="will_disable_mobile_data">Mobile data  will be disabled</string>
+    <string name="mobile_data_not_managed">Mobile data is NOT managed</string>
+    <string name="will_disable_sounds">Sounds will be disabled</string>
+    <string name="sounds_not_managed">Sounds are NOT managed</string>
+    
+    <string name="connected">Connected</string>
+    
+    <string name="managed">Managed</string>
+    <string name="disabled">Disabled</string>
+    
+    <string name="checkmark">checkmark</string>
+
+</resources>

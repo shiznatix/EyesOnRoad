@@ -1,0 +1,41 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:actionBarStyle">@style/ActionBar.Eyesonroad</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Eyesonroad</item>
+        <item name="android:actionModeBackground">@drawable/tab_background_top</item>
+        <item name="android:actionBarTabTextStyle">@style/ActionBarTabTextStyle.Eyesonroad</item>
+    </style>
+    
+    <style name="ActionBar.Eyesonroad" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/actionbar_background</item>
+        <item name="android:backgroundStacked">@drawable/actionbar_stacked</item>
+        <item name="android:titleTextStyle">@style/ActionBar.Eyesonroad.TitleTextStyle</item>
+    </style>
+   
+    <style name="ActionBar.Eyesonroad.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+		<item name="android:textColor">#FFFFFF</item>
+	</style>
+	
+    <style name="ActionBarTabStyle.Eyesonroad" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/actionbar_tab</item>
+    </style>
+    
+    <style name="ActionBarTabTextStyle.Eyesonroad" parent="@android:style/Widget.Holo.Light.ActionBar.TabText">
+        <item name="android:textColor">#000000</item>
+    </style>
+    
+</resources>
